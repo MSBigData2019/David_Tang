@@ -1,5 +1,5 @@
 # Create a personal token : https://help.github.com/articles/creating-a-personal-access-token-for-the-command-line/
-# Token code : 115ea46fbf3e48e8b56c80304f2b9ddf523bf60a
+# Token code : XXX
 
 import requests
 from bs4 import BeautifulSoup
@@ -7,7 +7,7 @@ import pandas as pd
 import json
 
 url = "https://gist.github.com/paulmillr/2657075"
-token_code = '115ea46fbf3e48e8b56c80304f2b9ddf523bf60a'
+token_code = ' XXX '
 head = {'Authorization': 'token {}'.format(token_code)}
 
 #------------------------------------------------------------------------------
